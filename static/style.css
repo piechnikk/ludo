@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    font-family: Verdana;
+}
+#login{
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+#players_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.player{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border: 3px solid cornflowerblue;
+    background-color: gray;
+    margin: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+}
+.timer{
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    border: 3px solid cornflowerblue;
+    border-bottom-left-radius: 7px;
+    padding: 2px;
+    background-color:royalblue;
+    display: none;
+}
+.kostka{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-color: lightsteelblue;
+    border: 3px solid royalblue;
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+}
+.pole {
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game_div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#dice{
+    display: inline-flex;
+    flex-direction: column;
+}
+#board{
+    position: relative;
+    width: 550px;
+    height: 550px;
+    display: none;
+}
+.checker{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 2;
+}
+.hidden{
+    display: none;
+}
+.myChecker{
+    cursor: pointer;
+}
+#diceValue{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+#winnerBaner{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    display: none;
+}

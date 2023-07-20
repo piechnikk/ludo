@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chińczyk</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="players_bar">
+            <div id="red" class="player">???</div>
+            <div id="blue" class="player">???</div>
+            <div id="green" class="player">???</div>
+            <div id="yellow" class="player">???</div>
+            <div id="div_now">
+                <input type="checkbox" id="game_now">
+                Chce już grać!
+            </div>
+        </div>
+        <div id="game_div">
+            <div id="dice">
+                <div id="kostka" class="kostka">rzuć</div>
+                <img id="diceValue">
+                <div id="skip" class="kostka">Pomiń ruch</div>
+            </div>
+            <div id="board">
+                <div class="checker hidden myChecker"></div>
+                <div class="checker hidden myChecker"></div>
+                <div class="checker hidden myChecker"></div>
+                <div class="checker hidden myChecker"></div>
+            </div>
+        </div>
+    </div>
+    <div id="winnerBaner"></div>
+</body>
+
+</html>
